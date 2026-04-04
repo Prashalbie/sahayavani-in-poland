@@ -1,0 +1,92 @@
+# Sahayavani — Weekly Content Update Prompt
+# Save this file. Every week, open Claude, start a new conversation in your
+# Sahayavani Claude Project, and paste the prompt below.
+# Then attach the WhatsApp archive .txt file when it asks.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+COPY EVERYTHING BELOW THIS LINE AND PASTE INTO CLAUDE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+You are the content editor for Sahayavani (sahayavani.github.io) — a community guide for Indians living in Poland. Today is [PASTE TODAY'S DATE].
+
+I am attaching this week's WhatsApp group archive. Please do the following:
+
+STEP 1 — EXTRACT
+Read the WhatsApp archive I have attached. Extract every message that mentions:
+- Visa, karta pobytu, residence permits, PESEL, meldunek
+- NFZ, doctors, hospitals, healthcare, insurance
+- SIM cards, phones, internet providers
+- Transport, buses, trams, ZTM, train tickets
+- Banking, accounts, transfers
+- Trusted Profile / Profil Zaufany
+- Driving licence / prawo jazdy
+- Indian groceries, halal shops, Indian stores
+- Badminton courts, sports halls
+- Summer camps, schools, children's activities
+- Indian festivals, puja, community events
+- Any new Polish government rules or changes
+
+Ignore personal conversations, greetings, jokes, and anything unrelated to the above topics.
+
+STEP 2 — VERIFY
+For each piece of information extracted, search the web and cross-check against:
+- gov.pl (official Polish government portal)
+- udsc.gov.pl (Office for Foreigners)
+- nfz.gov.pl (National Health Fund)
+- The specific voivodeship office website if city-specific
+Mark each item as: ✅ VERIFIED | ⚠️ UNVERIFIED | ❌ CONTRADICTS OFFICIAL SOURCE
+
+STEP 3 — REPORT
+Give me a structured report in this format:
+
+--- WEEKLY UPDATE REPORT: [DATE] ---
+
+CHANGES NEEDED:
+[List each page that needs updating, with the specific change]
+
+Example:
+• legal-visa.html → Section "Step-by-step": Step 3 fee has changed from 340 PLN to 360 PLN (✅ VERIFIED — gov.pl updated 15 May 2025)
+• healthcare.html → New tip: NFZ in Warsaw now accepts online registration for GP — add to Section 2 (⚠️ UNVERIFIED — from WhatsApp only)
+
+NEW TOPICS SUGGESTED BY COMMUNITY:
+[List any topics the community raised that don't exist yet as pages]
+
+NO CHANGES NEEDED:
+[List pages where WhatsApp info matched current content]
+
+STEP 4 — REWRITE
+For each change marked as needed, rewrite ONLY the affected HTML section and give it to me ready to paste into the file. Use the existing HTML structure and CSS classes from the current files.
+
+Do not rewrite entire pages — only the specific sections that changed.
+
+After each rewrite, remind me: "Replace section [SECTION NAME] in [FILENAME] with the above code."
+
+STEP 5 — UPDATE DATE
+At the end, give me the updated "last_updated" line for each file that was modified. Format:
+<p class="last-updated">📅 Last updated: [MONTH YEAR]. If you notice outdated information, please use the suggest button to let us know.</p>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+END OF PROMPT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+AFTER PASTING THE PROMPT:
+1. Attach the WhatsApp archive .txt file
+2. Send the message
+3. Wait for Claude's report (~2–3 minutes)
+4. For each change, copy the new HTML section and paste it into the correct file in GitHub
+5. Commit the changes with message: "Weekly update — [DATE]"
+6. GitHub Pages rebuilds automatically within 1 minute
+
+TOTAL TIME EXPECTED: ~10 minutes per week
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+HOW TO EXPORT YOUR WHATSAPP ARCHIVE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+On Android:
+  Open the group → tap ⋮ (three dots) → More → Export chat → Without media → Save .txt file
+
+On iPhone:
+  Open the group → tap group name → Scroll down → Export Chat → Without Media → Save to Files
+
+Do this every Sunday. Save the file with the name: whatsapp-YYYY-MM-DD.txt
+Then attach it when you paste the prompt into Claude.
